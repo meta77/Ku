@@ -64,7 +64,7 @@ class KuOperator:
 k = Ku()
 print(int in k)        # True（あらゆる概念を包含）
 print(123 in k)        # True
-print(Ku() == True)    # False（次元が異なる）
+print(Ku() == True)    # ミス。False（次元が異なる）を期待したいが、Trueになる。クラスの定義から当たり前か。
 print(k == False)
 print(bool(k))
 
