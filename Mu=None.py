@@ -33,7 +33,7 @@ k = Ku()
 print("None in k:", None in k)           # True
 print("k == None:", k == None)           # True
 
-# 実行結果はTrueになる。仕様と異なることに注意。
+# 実行結果はTrueになる。仕様（理想）と異なることに注意。
 print("k == object():", k == object())   # False（空以外のオブジェクトとは非等価）
 
 try:
