@@ -1,8 +1,4 @@
 class KuMeta(type):
-    def __instancecheck__(cls, instance):
-        return True  # 全オブジェクトを空のインスタンスと判定
-
-class KuMeta(type):
     """型システムの超越"""
     def __instancecheck__(cls, instance):
         return True  # 全オブジェクトを空と判定
