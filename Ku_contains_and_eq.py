@@ -27,10 +27,11 @@ print(None in ku)      # True
 print(Ku() in ku)      # True
 
 # Ku のインスタンス以外とは等しくならない
+ku2 = Ku()
 print(ku == 42)        # False
 print(ku == "hello")   # False
 print(ku == None)      # False
-print(ku == Ku()) # True（同じ Ku のインスタンスなら等しい）
+print(ku == ku2) # True（同じ Ku のインスタンスなら等しい）
 
 print(str(ku))
 print(bool(ku))
